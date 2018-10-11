@@ -1,3 +1,4 @@
+//Start program
 import java.util.Scanner;
 
 class DanceFloor {

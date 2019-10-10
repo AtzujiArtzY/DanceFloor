@@ -12,11 +12,9 @@ class DanceFloor {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < 2; j++) {
                 arr[i][j] = scan.nextInt();
-                //System.out.println(arr[i][j]);
             }
             if ((arr[i][0] % 2 == 0 && arr[i][1] % 2 == 0) || (arr[i][0] % 2 != 0 && arr[i][1] % 2 != 0)) {
                 arr_temp[c_temp] = i;
-                //System.out.println(arr_temp[c_temp]);
                 c_temp++;
             }
         }
